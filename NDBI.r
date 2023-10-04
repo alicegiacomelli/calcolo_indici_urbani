@@ -166,7 +166,7 @@ freq(landcover23$map)
 > freq(landcover93$map)
       value  count
 # [1,]     1  19537
-# [2,]     2  13889
+# [2,]     2  13889 
 # [3,]     3 146348 NON URBANO
 # [4,]     4   3410
 # [5,]     5   8153
