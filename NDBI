@@ -1,3 +1,10 @@
+############### CALCOLO INDICE URBANO (NDBI) NEL TERRITORIO DI FIUMICINO #################
+
+# metto a confronto 2 immagini landsat del 1993 e del 2023
+# mese di acquisizione marzo
+# calcolo percentuale urbano e non urbano
+
+
 # librerie 
 library(raster)       # gestione immagini raster
 library(ggplot2)      # visualizzazione dati in modo potente, per plot con ggplot
