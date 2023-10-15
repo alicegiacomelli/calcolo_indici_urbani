@@ -5,8 +5,11 @@
 # calcolo percentuale urbano e non urbano
 
 
-###### writeRaster(input_raster, filename = output_geotiff, format = "GTiff") 
+###### # Sostituisci 'output_file.tif' con il percorso e il nome del tuo file GeoTIFF di destinazione
+# writeRaster(rgb_raster, "output_file.tif", format = "GTiff", overwrite = TRUE)
 # esportare in geotiff un file raster 
+
+
 
 # librerie 
 library(raster)       # gestione immagini raster
