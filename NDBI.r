@@ -5,6 +5,9 @@
 # calcolo percentuale urbano e non urbano
 
 
+###### writeRaster(input_raster, filename = output_geotiff, format = "GTiff") 
+# esportare in geotiff un file raster 
+
 # librerie 
 library(raster)       # gestione immagini raster
 library(ggplot2)      # visualizzazione dati in modo potente, per plot con ggplot
@@ -84,7 +87,6 @@ fiumicino_bande_93 # per vedere nomi delle bande
 # banda 5 = SWIR1
 ndbi93 = (fiumicino_bande_93[[5]] - fiumicino_bande_93[[3]]) / (fiumicino_bande_93[[5]] + fiumicino_bande_93[[3]])
 ndbi93
-
 
 # PLOT
 
